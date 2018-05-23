@@ -1,0 +1,72 @@
+<Player Path ="Image/metalslug.png">
+  <Idle Repeat="1">
+    <Frame Index ="0" Time ="200">
+      <Start x="4" y="2"/>
+      <End x ="34" y="40"/>
+    </Frame>
+    <Frame Index ="1" Time ="200">
+      <Start x="35" y="2"/>
+      <End x ="64" y="40"/>
+    </Frame>
+    <Frame Index ="2" Time ="200">
+      <Start x="64" y="2"/>
+      <End x ="93" y="40"/>
+    </Frame>
+  </Idle>
+  <Run Repeat="1">
+    <Frame Index ="0" Time ="100">
+      <Start x="107" y="1"/>
+      <End x ="137" y="41"/>
+    </Frame>
+    <Frame Index ="1" Time ="100">
+      <Start x="139" y="1"/>
+      <End x ="167" y="42"/>
+    </Frame>
+    <Frame Index ="2" Time ="100">
+      <Start x="168" y="1"/>
+      <End x ="200" y="41"/>
+    </Frame>
+    <Frame Index ="3" Time ="100">
+      <Start x="201" y="1"/>
+      <End x ="233" y="42"/>
+    </Frame>
+    <Frame Index ="4" Time ="100">
+      <Start x="235" y="1"/>
+      <End x ="262" y="41"/>
+    </Frame>
+    <Frame Index ="5" Time ="100">
+      <Start x="266" y="1"/>
+      <End x ="295" y="41"/>
+    </Frame>
+    <Frame Index ="6" Time ="100">
+      <Start x="298" y="1"/>
+      <End x ="330" y="41"/>
+    </Frame>
+    <Frame Index ="7" Time ="100">
+      <Start x="330" y="1"/>
+      <End x ="366" y="38"/>
+    </Frame>
+    <Frame Index ="8" Time ="100">
+      <Start x="366" y="1"/>
+      <End x ="400" y="41"/>
+    </Frame>
+  </Run>
+  <Shoot Repeat="0">
+   <Frame Index ="0" Time ="100">
+      <Start x="3" y="59"/>
+      <End x ="53" y="96"/>
+    </Frame>
+    <Frame Index ="1" Time ="100">
+      <Start x="55" y="59"/>
+      <End x ="106" y="96"/>
+    </Frame>
+    <Frame Index ="2" Time ="100">
+      <Start x="110" y="59"/>
+      <End x ="147" y="96"/>
+    </Frame>
+    <Frame Index ="3" Time ="100">
+      <Start x="152" y="57"/>
+      <End x ="189" y="96"/>
+    </Frame>
+  </Shoot>
+</Player>

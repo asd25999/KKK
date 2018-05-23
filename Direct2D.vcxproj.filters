@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{ea9949f7-0df2-4926-bec2-a63f832d0455}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{97449549-dfba-4b03-a36b-a4143947172d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Point">
+      <UniqueIdentifier>{5f9c19be-98c8-4091-b68f-350ad51d8166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Rect">
+      <UniqueIdentifier>{41529e7a-ba27-4e9d-968a-7a90a5ac0ba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Size">
+      <UniqueIdentifier>{308f0ac2-e6db-4bfd-8dce-81fefda460da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{17b18f7b-59ea-467c-9c3d-a402582a260a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Device">
+      <UniqueIdentifier>{c7aa11d0-42cc-4893-89ba-a9be4853d06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Mouse">
+      <UniqueIdentifier>{8e3f718e-cc7f-45a6-960d-3cd18ed49ef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Window">
+      <UniqueIdentifier>{17534d00-bac8-43a6-8199-325150c8805c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Keyboard">
+      <UniqueIdentifier>{b2360bee-bc4c-47c9-beac-f545d53b1d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain">
+      <UniqueIdentifier>{0085b627-649d-4c72-80fd-184cd722000c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test">
+      <UniqueIdentifier>{7523abbf-1a85-440d-a410-a7b16b323631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\VertexTest">
+      <UniqueIdentifier>{20805c4d-4224-445f-8127-f0249e526ae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\PaintTest">
+      <UniqueIdentifier>{a99c689b-4202-46e3-9744-3c8694e1f5da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\VertexBufferTest">
+      <UniqueIdentifier>{d1bf4c17-a7dc-4173-b060-809b702b78c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\WVPTest">
+      <UniqueIdentifier>{32215aef-1425-41f3-827f-e3c957f249e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\TextureTest">
+      <UniqueIdentifier>{f378d641-a361-4190-8b9e-5c0ceaec3290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{6136b7d3-d7e2-439c-bc09-0caacf251727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Texture">
+      <UniqueIdentifier>{2c856da5-dd60-4485-aa39-fa2e1fbccef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\SliceTest">
+      <UniqueIdentifier>{ab82154d-5e77-4283-8443-e6fdda2f1608}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\SRTTest">
+      <UniqueIdentifier>{9c29abea-0507-4ad9-a13e-f8211fd19eeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\AlphaTest">
+      <UniqueIdentifier>{d8478257-922d-4183-841a-4dba7882699f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{7c9c7fa3-a067-4992-983d-29774318f3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Animator">
+      <UniqueIdentifier>{472111a5-bde1-456b-bc1d-106b2e422fda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\AniTest">
+      <UniqueIdentifier>{8e83ded3-a25e-490e-9900-7a77aa0af578}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Frames">
+      <UniqueIdentifier>{7246178d-5255-4ca3-b3d4-c0ad3ad38bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMain\Test\XmlTest">
+      <UniqueIdentifier>{2de61fc5-e83c-4065-b35e-0167ca10c817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Xml">
+      <UniqueIdentifier>{8b169f27-3a22-4b55-a063-8abc855ed202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{ed727155-3aa0-41a0-a111-00812ac3f9b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Size.h">
+      <Filter>Core\Size</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>Core\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="Point.h">
+      <Filter>Core\Point</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>System\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>System\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>System\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>System\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMain.h">
+      <Filter>GameMain</Filter>
+    </ClInclude>
+    <ClInclude Include="Test.h">
+      <Filter>GameMain\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexTest.h">
+      <Filter>GameMain\Test\VertexTest</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTest.h">
+      <Filter>GameMain\Test\PaintTest</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexBufferTest.h">
+      <Filter>GameMain\Test\VertexBufferTest</Filter>
+    </ClInclude>
+    <ClInclude Include="WVPTest.h">
+      <Filter>GameMain\Test\WVPTest</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureTest.h">
+      <Filter>GameMain\Test\TextureTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Render\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SliceTest.h">
+      <Filter>GameMain\Test\SliceTest</Filter>
+    </ClInclude>
+    <ClInclude Include="SRTTest.h">
+      <Filter>GameMain\Test\SRTTest</Filter>
+    </ClInclude>
+    <ClInclude Include="AlphaTest.h">
+      <Filter>GameMain\Test\AlphaTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Render\Animator</Filter>
+    </ClInclude>
+    <ClInclude Include="AniTest.h">
+      <Filter>GameMain\Test\AniTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Frames.h">
+      <Filter>System\Frames</Filter>
+    </ClInclude>
+    <ClInclude Include="XmlTest.h">
+      <Filter>GameMain\Test\XmlTest</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml.h">
+      <Filter>System\Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameMain\Test\XmlTest</Filter>
+    </ClInclude>
+    <ClInclude Include="TigerBoy.h">
+      <Filter>GameMain\Test\XmlTest</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeView.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="FollowView.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MainCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Size.cpp">
+      <Filter>Core\Size</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>Core\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="Point.cpp">
+      <Filter>Core\Point</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>System\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>System\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>System\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>System\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMain.cpp">
+      <Filter>GameMain</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexTest.cpp">
+      <Filter>GameMain\Test\VertexTest</Filter>
+    </ClCompile>
+    <ClCompile Include="PaintTest.cpp">
+      <Filter>GameMain\Test\PaintTest</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexBufferTest.cpp">
+      <Filter>GameMain\Test\VertexBufferTest</Filter>
+    </ClCompile>
+    <ClCompile Include="WVPTest.cpp">
+      <Filter>GameMain\Test\WVPTest</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureTest.cpp">
+      <Filter>GameMain\Test\TextureTest</Filter>
+    </ClCompile>
+    <ClCompile Include="SliceTest.cpp">
+      <Filter>GameMain\Test\SliceTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Render\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SRTTest.cpp">
+      <Filter>GameMain\Test\SRTTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaTest.cpp">
+      <Filter>GameMain\Test\AlphaTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Render\Animator</Filter>
+    </ClCompile>
+    <ClCompile Include="AniTest.cpp">
+      <Filter>GameMain\Test\AniTest</Filter>
+    </ClCompile>
+    <ClCompile Include="Frames.cpp">
+      <Filter>System\Frames</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml.cpp">
+      <Filter>System\Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameMain\Test\XmlTest</Filter>
+    </ClCompile>
+    <ClCompile Include="TigerBoy.cpp">
+      <Filter>GameMain\Test\XmlTest</Filter>
+    </ClCompile>
+    <ClCompile Include="XmlTest.cpp">
+      <Filter>GameMain\Test\XmlTest</Filter>
+    </ClCompile>
+    <ClCompile Include="MainCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeView.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="FollowView.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Image\test.jpg">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Image\metalslug.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Image\Metalslug.xml">
+      <Filter>리소스 파일</Filter>
+    </Xml>
+    <Xml Include="Image\tigerboy.xml">
+      <Filter>리소스 파일</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
